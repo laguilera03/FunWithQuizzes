@@ -27,5 +27,11 @@ namespace FunWithQuizzes
             TheQuestion = theQuestion;
             Answer = answer;
         }
+
+        //Subclass Inheritance for Multiple choice, for checkbox, and for true and false
+    }
+    class TrueFalse
+    {
+        public string choices {this.Question }
     }
 }
